@@ -15,10 +15,10 @@ from logging.handlers import RotatingFileHandler
 
 from os import environ
 
-API = environ.get("API", "") # shortlink api
-URL = environ.get("URL", "") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # bot username without @
+API = environ.get("API", "bbdb6b60ed04fe8a722523a1715bc84efcae5f04") # shortlink api
+URL = environ.get("URL", "omegalink.in") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Anity_managementbots/27") # how to open link 
+BOT_USERNAME = environ.get("BOT_USERNAME", "Mikeyfile_bot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
 
 
