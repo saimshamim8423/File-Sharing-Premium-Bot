@@ -13,3 +13,5 @@ dnspython
 
 # --- For-Web-Response ------- #
 aiohttp
+shortzy
+pytz
