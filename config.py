@@ -13,6 +13,16 @@ from logging.handlers import RotatingFileHandler
 
 
 
+from os import environ
+
+API = environ.get("API", "") # shortlink api
+URL = environ.get("URL", "") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
+BOT_USERNAME = environ.get("BOT_USERNAME", "") # bot username without @
+VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
+
+
+
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "21118391"))
