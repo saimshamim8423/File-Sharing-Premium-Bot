@@ -49,11 +49,10 @@
 <summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/JishuDeveloper/File-Sharing-Premium-Bot/tree/4-force-subs">
+<a href="https://heroku.com/deploy?template=https://github.com/saimshamim8423/File-Sharing-Premium-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
-
 
 
 ### FEATURES
