@@ -89,8 +89,8 @@ async def start_command(client: Client, message: Message):
                     ],[
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                      ]]
-                      await message.reply_text(
-                          text="<b>You are not verified !\nKindly verify to continue !</b>",
+                      await message.reply_text("Something went wrong..!")
+            return
                           protect_content=True,
                           reply_markup=InlineKeyboardMarkup(btn)
                       )
