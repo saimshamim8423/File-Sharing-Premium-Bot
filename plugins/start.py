@@ -83,7 +83,6 @@ async def start_command(client: Client, message: Message):
                 reply_markup = msg.reply_markup
             else:
                 reply_markup = None
-                      )
                       return
             try:
                 f = await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = ParseMode.HTML, reply_markup = reply_markup, protect_content=PROTECT_CONTENT)
