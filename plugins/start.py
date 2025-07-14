@@ -83,16 +83,6 @@ async def start_command(client: Client, message: Message):
                 reply_markup = msg.reply_markup
             else:
                 reply_markup = None
-                if not await check_verification(client, message.from_user.id) and VERIFY == True:
-                    btn = [[
-                        InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{BOT_USERNAME}?start="))
-                    ],[
-                        InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
-                     ]]
-                      await message.reply_text("Something went wrong..!")
-            return
-                          protect_content=True,
-                          reply_markup=InlineKeyboardMarkup(btn)
                       )
                       return
             try:
